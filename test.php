@@ -23,7 +23,7 @@ if (!$result) {
     exit;
 }
 
-
+//hiii
 while ($row = pg_fetch_assoc($result)) {
     echo "Email: " . $row['email'] . ", Password: " . $row['password'] . "\n";
 }
